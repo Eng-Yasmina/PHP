@@ -32,7 +32,6 @@ if(!empty($errors))
             case '5':
                 echo "Go to kindergarden";
                 break;
-  
             default:
             if ($_POST['age'] > 6 && $_POST['age'] < 12) { 
                 echo "Go to grade : $_POST['age']";
