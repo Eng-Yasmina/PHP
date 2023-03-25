@@ -39,8 +39,8 @@ if(!empty($errors))
                 echo "i equals 2";
                 break;
             default:
-            if ($_POST['age'] > 6 && $var < 12) { 
-                echo "Go to grade :$_POST['age']";
+            if ($_POST['age'] > 6 && $_POST['age'] < 12) { 
+                echo "Go to grade : $_POST['age']";
               } else if ($_POST['age'] < 5) { 
                 echo "Stay at home";
               }
